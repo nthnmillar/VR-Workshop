@@ -8,7 +8,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/VR Lobby.unity
     guid: 6d859c8be7f2c4aec84f4b7e5be0169c
+  - enabled: 1
+    path: Assets/Scenes/VR Video Player.unity
+    guid: 476d6cb552d404846bd046124750fcfd
   m_configObjects: {}
