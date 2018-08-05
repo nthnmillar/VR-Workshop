@@ -318,6 +318,31 @@ Prefab:
       propertyPath: m_Text
       value: "VR \nMaze"
       objectReference: {fileID: 0}
+    - target: {fileID: 114519601645277484, guid: 7400f9e50ed2ad345be8696561f31322,
+        type: 2}
+      propertyPath: myColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114519601645277484, guid: 7400f9e50ed2ad345be8696561f31322,
+        type: 2}
+      propertyPath: myColor.g
+      value: 0.0035750866
+      objectReference: {fileID: 0}
+    - target: {fileID: 114519601645277484, guid: 7400f9e50ed2ad345be8696561f31322,
+        type: 2}
+      propertyPath: myColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 102145069269738782, guid: 7400f9e50ed2ad345be8696561f31322,
+        type: 2}
+      propertyPath: m_Color.rgba
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 114519601645277484, guid: 7400f9e50ed2ad345be8696561f31322,
+        type: 2}
+      propertyPath: myColor.a
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7400f9e50ed2ad345be8696561f31322, type: 2}
   m_IsPrefabAsset: 0
@@ -410,6 +435,45 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: -45
       objectReference: {fileID: 0}
+    - target: {fileID: 23659203314524144, guid: 7400f9e50ed2ad345be8696561f31322,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1125470662955340, guid: 7400f9e50ed2ad345be8696561f31322, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114519601645277484, guid: 7400f9e50ed2ad345be8696561f31322,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114519601645277484, guid: 7400f9e50ed2ad345be8696561f31322,
+        type: 2}
+      propertyPath: myColor.r
+      value: 0.45870662
+      objectReference: {fileID: 0}
+    - target: {fileID: 114519601645277484, guid: 7400f9e50ed2ad345be8696561f31322,
+        type: 2}
+      propertyPath: myColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114519601645277484, guid: 7400f9e50ed2ad345be8696561f31322,
+        type: 2}
+      propertyPath: myColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 102145069269738782, guid: 7400f9e50ed2ad345be8696561f31322,
+        type: 2}
+      propertyPath: m_Color.rgba
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 114519601645277484, guid: 7400f9e50ed2ad345be8696561f31322,
+        type: 2}
+      propertyPath: myColor.a
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7400f9e50ed2ad345be8696561f31322, type: 2}
   m_IsPrefabAsset: 0
@@ -465,6 +529,31 @@ Prefab:
         type: 2}
       propertyPath: m_Text
       value: "VR \nShooter"
+      objectReference: {fileID: 0}
+    - target: {fileID: 114519601645277484, guid: 7400f9e50ed2ad345be8696561f31322,
+        type: 2}
+      propertyPath: myColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114519601645277484, guid: 7400f9e50ed2ad345be8696561f31322,
+        type: 2}
+      propertyPath: myColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114519601645277484, guid: 7400f9e50ed2ad345be8696561f31322,
+        type: 2}
+      propertyPath: myColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 102145069269738782, guid: 7400f9e50ed2ad345be8696561f31322,
+        type: 2}
+      propertyPath: m_Color.rgba
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 114519601645277484, guid: 7400f9e50ed2ad345be8696561f31322,
+        type: 2}
+      propertyPath: myColor.a
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7400f9e50ed2ad345be8696561f31322, type: 2}
