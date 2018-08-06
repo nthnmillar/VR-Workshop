@@ -20,10 +20,7 @@ public class MaterialGradientModifier : MonoBehaviour
             {
                 _gradientPosition = value;
                 _renderer.material.color = gradient.Evaluate(_gradientPosition);
-            }
-        
-
-        
+            }   
         }
     }
 
@@ -50,8 +47,8 @@ public class MaterialGradientModifier : MonoBehaviour
 	
 	// Update is called once per frame
 	//void Update ()
- //   {
- //           gradientPosition = Mathf.Sin((Time.time) * 0.5f) + 0.5f;
- //       //  SetGradientPosition(Mathf.Sin ((Time.time) * 0.5f) + 0.5f);
- //   }
+ // {
+ //         gradientPosition = Mathf.Sin((Time.time) * 0.5f) + 0.5f;
+ ////         SetGradientPosition(Mathf.Sin ((Time.time) * 0.5f) + 0.5f);
+ // }
 }
