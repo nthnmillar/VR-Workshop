@@ -10,15 +10,31 @@ public class MaterialGradientModifier : MonoBehaviour
     // public Color myColor;
     [SerializeField] Gradient gradient;
 
-    float gradientPosition;
-    void SetGradientPosition(float position)
+    float _gradientPosition;
+    public float gradientPosition
     {
-        if (position == gradientPosition)
-            return;
-        gradientPosition = position;
+        get { return _gradientPosition; }
+        set
+        {
+            if (_gradientPosition != value)
+            {
+                _gradientPosition = value;
+                _renderer.material.color = gradient.Evaluate(_gradientPosition);
+            }
+        
 
-        _renderer.material.color = gradient.Evaluate(gradientPosition);		
+        
+        }
     }
+
+ //   void SetGradientPosition(float position)
+ //   {
+ //       if (position == gradientPosition)
+ //           return;
+ //       gradientPosition = position;
+ //
+ //       _renderer.material.color = gradient.Evaluate(gradientPosition);		
+ //   }
 
     void Awake()
     {
@@ -28,12 +44,14 @@ public class MaterialGradientModifier : MonoBehaviour
     // Use this for initialization
     void Start ()
     {
-        SetGradientPosition(0);
+          gradientPosition = 0;
+   //     SetGradientPosition(0);
 	}
 	
 	// Update is called once per frame
-	void Update ()
-    {
-        SetGradientPosition(Mathf.Sin ((Time.time) * 0.5f) + 0.5f);
-	}
+	//void Update ()
+ //   {
+ //           gradientPosition = Mathf.Sin((Time.time) * 0.5f) + 0.5f;
+ //       //  SetGradientPosition(Mathf.Sin ((Time.time) * 0.5f) + 0.5f);
+ //   }
 }
