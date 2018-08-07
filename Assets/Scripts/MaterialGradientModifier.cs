@@ -46,9 +46,9 @@ public class MaterialGradientModifier : MonoBehaviour
 	}
 	
 	// Update is called once per frame
-	//void Update ()
- // {
- //         gradientPosition = Mathf.Sin((Time.time) * 0.5f) + 0.5f;
- ////         SetGradientPosition(Mathf.Sin ((Time.time) * 0.5f) + 0.5f);
- // }
+//	void Update ()
+//  {
+//          gradientPosition = Mathf.Sin((Time.time) * 0.5f) + 0.5f;
+//      //   SetGradientPosition(Mathf.Sin ((Time.time) * 0.5f) + 0.5f);
+// }
 }
